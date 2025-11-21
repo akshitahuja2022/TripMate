@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../Context/authContext";
+import { AuthContext } from "../Context/AuthContext";
 import { handleError, handleSuccess } from "../Cards/Notification";
 
 const LoginPage = () => {

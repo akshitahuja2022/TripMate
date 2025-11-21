@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
-import { AuthContext } from "../Context/authContext";
+import { AuthContext } from "../Context/AuthContext";
 import { handleError, handleSuccess } from "../Cards/Notification";
 
 const Navbar = () => {

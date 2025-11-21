@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../Context/authContext";
+import { AuthContext } from "../Context/AuthContext";
 
 const formatDate = (iso) => {
   if (!iso) return "N/A";

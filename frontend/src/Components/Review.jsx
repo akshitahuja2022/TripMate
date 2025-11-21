@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { AuthContext } from "../Context/authContext";
 
 const ReviewCard = ({ name, city, description, tripDestination }) => {
   return (

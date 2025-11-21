@@ -1,8 +1,6 @@
-import React from "react";
 import { packages } from "../Data/BookingPackages";
 import PackageCard from "../Cards/TravelPackageCard";
 import { Link } from "react-router-dom";
-import BookingPage from "./BookingPage";
 
 const Bookings = ({ value1, value2 }) => {
   return (

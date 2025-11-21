@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { AuthContext } from "../Context/authContext";
+import { AuthContext } from "../Context/AuthContext";
 import { handleError, handleSuccess } from "../Cards/Notification";
 import { useNavigate } from "react-router-dom";
 import { packages } from "../Data/BookingPackages";
