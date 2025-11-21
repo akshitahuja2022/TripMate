@@ -1,0 +1,18 @@
+# Env files
+*.env
+backend/.env
+frontend/.env
+
+
+# Node
+node_modules/
+npm-debug.log
+dist/
+build/
+
+# Other
+.DS_Store
+
+# Node modules
+backend/node_modules/
+frontend/node_modules/
