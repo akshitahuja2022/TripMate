@@ -1,20 +1,20 @@
 import hero from "./hero.png";
 
-import about1 from "./about1.png";
-import about2 from "./about2.png";
-import about3 from "./about3.png";
+import about1 from "./About1.png";
+import about2 from "./About2.png";
+import about3 from "./About3.png";
 import about4 from "./about4.png";
 
-import destination1 from "./destination1.png";
-import destination2 from "./destination2.png";
-import destination3 from "./destination3.png";
+import destination1 from "./Destination1.png";
+import destination2 from "./Destination2.png";
+import destination3 from "./Destination3.png";
 
-import destination4 from "./destination4.png";
-import destination5 from "./destination5.png";
-import destination6 from "./destination6.png";
-import destination7 from "./destination7.png";
-import destination8 from "./destination8.png";
-import destination9 from "./destination9.png";
+import destination4 from "./Destination4.png";
+import destination5 from "./Destination5.png";
+import destination6 from "./Destination6.png";
+import destination7 from "./Destination7.png";
+import destination8 from "./Destination8.png";
+import destination9 from "./Destination9.png";
 import destination10 from "./destination10.png";
 
 export const assets = {
@@ -34,5 +34,5 @@ export const assets = {
   destination7,
   destination8,
   destination9,
-  destination10
+  destination10,
 };
