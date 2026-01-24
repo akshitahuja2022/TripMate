@@ -47,8 +47,6 @@ Frontend (React + Vite): https://tripmate-s1u7.onrender.com/
 
 ### Database
 - MongoDB
-- Mongoose ODM
-
 ---
 
 ## 🔐 Authentication & Authorization
@@ -123,8 +121,9 @@ npm run dev
 - **Github:**  
   https://github.com/akshitahuja2022
 
+---
+## ⭐ Support
 
+If you like this project, please ⭐ the repository on GitHub!
 
 ---
-
-
