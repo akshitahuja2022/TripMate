@@ -77,8 +77,7 @@ Food-View/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone 
-cd food-view
+git clone https://github.com/akshitahuja2022/TripMate.git
 ```
 
 ### 2️⃣ Backend Setup
