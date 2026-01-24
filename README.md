@@ -37,7 +37,6 @@ Frontend (React + Vite): https://tripmate-s1u7.onrender.com/
 ### Frontend
 - React.js
 - React Router
-- Axios
 - Tailwind CSS / CSS
 
 ### Backend
