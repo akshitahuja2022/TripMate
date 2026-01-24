@@ -2,6 +2,9 @@
 
 Trip Mate is a full-stack travel booking web application that allows users to securely authenticate, explore travel packages, book their preferred trips, make online payments using Razorpay, and share reviews about their travel experience. The platform provides a smooth and reliable travel planning experience with secure transactions and user-friendly design.
 
+🌐 Live Demo
+
+Frontend (React + Vite): https://tripmate-s1u7.onrender.com/
 ---
 
 ## 🚀 Features
