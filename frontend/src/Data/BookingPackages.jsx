@@ -3,18 +3,20 @@ import { assets } from "../assets/assets";
 export const packages = [
   {
     image: assets.destination1,
+    travelAgencies: "Jodhana Tour Agencies",
     destination: "Jodhpur/ Rajasthan",
     duration: "3 Days / 2 Nights",
-    price: "10,999",
+    price: "7,999",
     tripType: ["Heritage", "Architecture", "Culture"],
     description:
       "Jodhpur, the Blue City and Sun City of Rajasthan, is a historic city in the Thar Desert founded in 1459 by Rao Jodha.",
   },
   {
     image: assets.destination2,
+    travelAgencies: "Pink City Tour & Travels",
     destination: "Jaipur / Rajasthan",
     duration: "4 Days / 3 Nights",
-    price: "8,499",
+    price: "8,999",
     tripType: ["Historic", "Culture", "Architecture"],
     description:
       "Discover Jaipur’s royal heritage — Amber Fort, Hawa Mahal, City Palace, and vibrant local markets await you.",
@@ -22,8 +24,9 @@ export const packages = [
   {
     image: assets.destination3,
     destination: "Bikaner / Bikaner, Rajasthan",
+    travelAgencies: "Marward City Tour",
     duration: "3 Days / 2 Nights",
-    price: "8,999",
+    price: "4,999",
     tripType: ["Historic", "Culture", "Architecture"],
     description:
       "Discover the Bikaner City’s majestic forts, royal palaces, and vibrant bazaars filled with art and history.",
@@ -31,10 +34,11 @@ export const packages = [
   {
     image: assets.destination4,
     destination: "Mount Abu / Sirohi, Rajasthan",
+    travelAgencies: "Abu Tour Agencies",
     duration: "3 Days / 2 Nights",
-    price: "10,999",
+    price: "6,999",
     tripType: ["Historic", "Hill station", "Aravalli"],
     description:
-      "The only hill station in the desert state of Rajasthan, renowned for its cool climate, lush green surroundings, and the stunning 11th-century Dilwara Jain Temples, known for intricate marble carvings."
+      "The only hill station in the desert state of Rajasthan, renowned for its cool climate, lush green surroundings, and the stunning 11th-century Dilwara Jain Temples, known for intricate marble carvings.",
   },
 ];

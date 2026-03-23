@@ -8,6 +8,7 @@ const PackageCard = ({
   price,
   tripType,
   description,
+  travelAgencies,
 }) => {
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl">
@@ -30,6 +31,9 @@ const PackageCard = ({
 
       <div className="p-4 sm:p-6 space-y-4">
         <div className="space-y-2">
+          <h2 className="text-lg font-bold uppercase mb-1">
+            {travelAgencies}
+          </h2>
           <div className="flex justify-between items-start">
             <div>
               <p className="text-xs text-gray-500 uppercase tracking-wide">
