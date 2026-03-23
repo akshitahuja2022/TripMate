@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 const BookingPage = () => {
   const navigate = useNavigate();
-  const { registerData, setRegisterData, isLogin } = useContext(AuthContext);
+  const { registerData, setRegisterData, isLogin, user } =
+    useContext(AuthContext);
   const [amount, setAmount] = useState(0);
 
   const startPayment = async (bookingId) => {
@@ -19,7 +20,7 @@ const BookingPage = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ amount }),
-        }
+        },
       );
       const data = await response.json();
 
@@ -49,7 +50,7 @@ const BookingPage = () => {
                 razorpay_signature: response.razorpay_signature,
                 bookingId: bookingId,
               }),
-            }
+            },
           );
 
           const verifyData = await verifyRes.json();
@@ -112,11 +113,12 @@ const BookingPage = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(payload),
-        }
+        },
       );
       const { message, error, success, bookUser } = await response.json();
       if (success) {
         if (bookUser && bookUser._id) {
+          console.log(bookUser);
           handleSuccess(message);
           startPayment(bookUser._id);
         }
@@ -158,8 +160,7 @@ const BookingPage = () => {
                 type="email"
                 name="email"
                 placeholder="Email Address"
-                value={registerData.email}
-                onChange={handleChange}
+                value={user?.email || ""}
                 required
                 className="px-4 py-2 border border-gray-300 rounded-lg"
               />
