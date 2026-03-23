@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
 
@@ -23,9 +23,10 @@ const YourPackage = () => {
     const fetchReviews = async () => {
       try {
         const res = await fetch(
-          `${import.meta.env.VITE_BACKEND_URL}/api/allbookings/${user.email}`
+          `${import.meta.env.VITE_BACKEND_URL}/api/allbookings/${user.email}`,
         );
         const data = await res.json();
+        console.log(data);
         setBooking(data);
       } catch (error) {
         console.log("Error fetching reviews", error);

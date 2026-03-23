@@ -1,6 +1,5 @@
 import { packages } from "../Data/BookingPackages";
 import PackageCard from "../Cards/TravelPackageCard";
-import { Link } from "react-router-dom";
 
 const Bookings = () => {
   return (
