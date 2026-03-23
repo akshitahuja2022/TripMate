@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="hidden sm:flex absolute sm:mt-24 inset-0  flex-col text-center">
         <h2 className="text-md sm:text-3xl md:text-4xl font-bold">
           Explore the World with Trip
-          <span className="text-blue-700">Mate</span>
+          <span className="text-blue-700">Next</span>
         </h2>
         <p className="text-xl sm:text-3xl md:text-4xl mt-2 font-bold">
           Let’s Make Every Trip Perfect!

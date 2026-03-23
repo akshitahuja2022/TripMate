@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { AuthContext } from "../Context/AuthContext";
@@ -16,7 +16,7 @@ const Navbar = () => {
 
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_BACKEND_URL}/api/logout`
+        `${import.meta.env.VITE_BACKEND_URL}/api/logout`,
       );
       const { message, success, error } = await response.json();
       if (success) {
@@ -41,7 +41,7 @@ const Navbar = () => {
     <div className="flex justify-between h-16 items-center py-4 px-6  bg-white fixed top-0 left-0 right-0 z-50">
       <div className="cursor-pointer text-xl lg:text-2xl">
         <Link to="/" className="font-bold tracking-wide">
-          Trip<span className="text-blue-700">Mate</span>
+          Trip<span className="text-blue-700">Next</span>
         </Link>
       </div>
       <div className="hidden md:block">

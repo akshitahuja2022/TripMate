@@ -20,7 +20,7 @@ const About = () => {
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-5">
               Discover unforgettable journeys with like-minded travelers.
               Whether you’re exploring hidden destinations or visiting iconic
-              landmarks, TripMate helps you find the perfect companion for your
+              landmarks, TripNext helps you find the perfect companion for your
               next adventure. Plan smarter, travel better, and make memories
               that last forever.
             </p>
@@ -37,7 +37,7 @@ const About = () => {
                     Safe Traveling
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Travel with confidence. Every user on TripMate is verified,
+                    Travel with confidence. Every user on TripNext is verified,
                     ensuring a safe and secure travel experience. Connect only
                     with trusted companions and explore worry-free.
                   </p>
@@ -76,7 +76,7 @@ const About = () => {
                     Comfort Accommodation
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    From cozy homestays to luxury hotels — TripMate helps you
+                    From cozy homestays to luxury hotels — TripNext helps you
                     organize your stays and transport in one place. Spend less
                     time planning and more time exploring.
                   </p>
